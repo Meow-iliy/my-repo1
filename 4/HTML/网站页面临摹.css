@@ -1,0 +1,364 @@
+*{
+    margin:0;
+    padding:0;
+}
+body.html{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    margin-top: 5px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.head-box{
+    width:650px;
+    height:195px;
+    position: absolute;
+    top: 170px;
+    text-align: center;
+}
+.head-p{
+    position: relative;
+    color:white;
+    font-size: 40px;
+    font-family: 幼圆;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+.head-introduce{
+    position: relative;
+    color:#445062;
+    font-size: 18px;
+    margin:0 auto;
+    top:10px;
+}
+.head-a{
+    position: relative;
+    padding:17px 40px;
+    background-color:#7d6de5;
+    border-radius: 2px;
+    text-decoration: none;
+    color:white;
+    letter-spacing: 0;
+    font-weight: bold;
+    font-size: 14px;
+    top: 50px;
+}
+/*----------------body------------------*/
+.body{
+    width:1440px;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    flex-wrap: wrap;
+    box-shadow: #aab3b4 0 0 10px;
+}
+.body-box{
+    width:650px;
+    height:195px;
+    position: relative;
+    text-align: center;
+    top:90px;
+}
+.body-p{
+    position: relative;
+    font-size: 30px;
+    color:black;
+    font-family: 幼圆;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: bold;
+    word-spacing: -4px;
+    text-indent: 10px;
+}
+.body-box2{
+    display: flex;
+    width:1080px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    border-bottom: 1px solid #b5bebf;
+}
+.smallCard{
+    width:315px;
+    height:190px;
+    text-align: center;
+    margin: 20px 40px;
+}
+.smallCard-p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.smallCard-introduce{
+    line-height: 25px;
+    margin-top: 10px;
+    text-indent: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+    color:#868f90
+}
+
+.body-box3{
+    width:650px;
+    height:195px;
+    position: relative;
+    text-align: center;
+    top:30px;
+}
+.body-p2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 幼圆;
+}
+.body-introduce{
+    position: relative;
+    top:20px;
+    font-size: 18px;
+    color: #818a8b
+}
+
+.body-box4{
+    width:950px;
+    height:315px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 0;
+}
+.box4-box{
+    width:470px;
+    height:130px;
+    margin: 0 20px;
+}
+.box4-p{
+    font-size: 30px;
+    text-align: left;
+}
+.box4-introduce{
+    text-align: left;
+    font-size: 18px;
+    color: #889091;
+    margin-top: 20px;
+}
+.box4-img{
+    box-shadow: 0 0 10px #aab3b4;
+}
+
+
+.body-half{
+    height:755px;
+    width:1440px;
+    display: flex;
+    background-color:#151e2c;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.half-box1{
+    width:100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.half-p{
+    font-size: 40px;
+    color:white;
+    font-family: 隶书;
+    word-spacing: -5px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.half-card{
+    width:345px;
+    height:470px;
+    background-color: #26303e;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 20px;
+}
+.card-box1{
+    width:300px;
+    height:130px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    border-bottom: 2px white dashed;
+}
+.card-box1-p{
+    color: #bcbcbc;
+    position: relative;
+    top:30px;
+}
+.card-box1-price{
+    color:white;
+    font-size: 30px;
+    position: relative;
+    top:50px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+}
+
+.card-box2{
+    width:300px;
+    position: relative;
+}
+.card-box2-p{
+    color:white;
+    font-size: 18px;
+}
+.card-box2-intro{
+    margin-top: 20px;
+    color:#a8b3bc
+}
+.box2-a{
+
+    text-align: center;
+    padding:17px 111px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    letter-spacing: 0;
+    background-color: #7e6ee6;
+    text-decoration: none;
+}
+
+
+/*------------------foot----------------*/
+.foot{
+    width:1440px;
+    height:688px;
+    box-shadow: #bbc4c5 0 0 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foot-box1{
+    width:100%;
+    text-align: center;
+    margin-top: 80px;
+}
+.foot-p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 宋体;
+}
+.foot-card{
+    width:340px;
+    height:316px;
+    box-shadow: #c1cecf 0 4px 3px;
+    margin:0 10px;
+}
+.stars{
+    display: flex;
+    width:100%;
+    margin:30px 15px;
+}
+.foot-card-p{
+    margin-left: 15px;
+    word-wrap: break-word;
+    word-break: break-all;
+    line-height: 25px;
+}
+.foot-person{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.img-box{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.person-img{
+    width:40px;
+    height:40px;
+}
+
+.last{
+    width:1440px;
+    height:446px;
+    background-color: #151e2c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.addShow{
+    width:1080px;
+    height:176px;
+    background-color: #7e6ee6;
+    position: absolute;
+    top:-88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addShow-p{
+    font-size: 30px;
+    color:#e3dfff;
+    font-family: 微软雅黑;
+    margin-left: 20px;
+}
+.addShow-a{
+    text-decoration: none;
+    color:#7e6ee6;
+    font-size: 20px;
+    padding:17px 40px;
+    background-color: white;
+    border-radius: 2px;
+    letter-spacing: 0;
+    margin:30px;
+}
+.last-card{
+    width:252px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 144px;
+    border-top: 1px #8792a5 solid;
+}
+.last-card-p{
+    color:white;
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.last-a{
+    color:#9eabc0;
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 14px;
+}
+.logo{
+    width:100%;
+}
+
+.img-logo{
+    margin-top: 20px;
+}
+.brand{
+    margin-top: 40px;
+}
+.img-brand{
+    margin-right: 30px;
+}
+
+
+/*----------------调试--------------------*/
+.debug{
+    width:1080px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
